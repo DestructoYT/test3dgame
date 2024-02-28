@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="UP|1C3]|c0,hoiQ`*8tl">mySprite</variable><variable type="KIND_SpriteKind" id="dn4zRX@]QBs%pO#^-[/C">Player</variable><variable type="KIND_SpriteKind" id="Fd2~LSS[ID@Q.57$0e25">Projectile</variable><variable type="KIND_SpriteKind" id="7cIdCne?lD:+9zJjTS77">Food</variable><variable type="KIND_SpriteKind" id="N%;Y8Nl!J(`*Y49RH?ke">Enemy</variable></variables><block type="pxt-on-start" id="3Ie:iwEw{b0}OX|H/@Lk" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="oF]iX]ZIDgcc#5QF1_LO"><value name="color"><shadow type="colorindexpicker" id="OnKSlm%o..E4j@]JFvfR"><field name="index">1</field></shadow></value><next><block type="variables_set" id="8g_m9XKg9aInF`e!iN2z"><field name="VAR" id="UP|1C3]|c0,hoiQ`*8tl">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="dR.C-cyJVfY)?m[,AU_A"><value name="img"><shadow type="screen_image_picker" id="Z;E4HOJ2xr5~54X.;+m#"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . f 4 4 4 f f . . . . . 
+. . . . f f f 4 f 4 f . . . . . 
+. . . . f f 4 4 4 f f . . . . . 
+. . . . . f 4 4 f f . . . . . . 
+. . . . . . f f 4 f . f f f . . 
+. . . f f f f f 4 f f f . . . . 
+. . . f . . . f 4 f . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . . f f f f f . . . . . . 
+. . . . f f . . . f . . . . . . 
+. . . . f . . . . f . . . . . . 
+. . . . f . . . . f f . . . . . 
+. . . . . . . . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Z;E4HOJ2xr5~54X.;+m#"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="jzH5,-eN.WU#es,eLa%@"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesetpos" id="Yj-mmc:NXBF{L`h~L4~c"><value name="sprite"><block type="variables_get" id="GK(o^PCkdRc4OsT^N@KW"><field name="VAR" id="UP|1C3]|c0,hoiQ`*8tl">mySprite</field></block></value><value name="x"><shadow type="positionPicker" id="O]nsBu[}P$2sSz70US[`"><field name="index">0</field></shadow></value><value name="y"><shadow type="positionPicker" id="9FyeeP]CjKt:|NS)(U!|"><field name="index">0</field></shadow></value></block></next></block></next></block></statement></block></xml>
